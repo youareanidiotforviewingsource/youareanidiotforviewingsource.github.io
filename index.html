@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head onload="viewcodemusic();">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View shops source!</title>
+    <link rel="shortcut icon" href="/img/" type="image/x-icon">
+    <audio id="calmmusic" src="/sound/calm.mp3" autoplay="" loop=""></audio>
+    <script>
+     
+        function viewcodemusic() {
+        var calmsound = document.getElementById("calmmusic");
+        calmsound.play();
+        }
+    </script>
+    <style>
+        * {
+            padding:0;
+            margin:0;
+            overflow:hidden;
+        }
+
+        @keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+  }
+  #text {
+    animation: blinker 0s linear infinite;
+  }
+body {
+    max-width:1267px;
+            max-height:1280px;
+            width:1267px;
+            height:1280px;
+            background-color:black;
+}
+
+    </style>
+</head>
+<body onmouseover="viewcodemusic()" onclick="viewcodemusic()"">
+<img src="/img/bag.webp"  style="border-radius:3px;" width="1267px" height="1280px" onmouseover="viewcodemusic()" >
+
+<h3 onmouseover="viewcodemusic()" id="text" style="position:fixed; top:630px; left:345px; font-size:35px; color:white; text-align:center;">for trying to view our shops private src!!!</h3>
+</body>
+</html>
